@@ -1,5 +1,5 @@
 .box {
-    width: 80%;
+    width: auto;
     margin: auto;
     padding: 2%;
     background: #B197C0;
@@ -43,24 +43,14 @@
 #text_title {
     text-align: center;
     color: black;
-    padding-top: 10px;
 }
 #text_body {
     text-align: left;
     color: black;
-    padding-top: 10px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 1%;
 }
 #body_policy {
     margin: auto;
-    width: 340px;
-    height: 970px;
-    margin-top: 20px;
-    position: relative;
-
-    background: #B197C0;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 #back_image {
     position: relative;
