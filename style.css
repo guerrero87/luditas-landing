@@ -1,0 +1,105 @@
+#title {
+    margin: auto;
+    width: 340px;
+    height: 90px;
+    left: 10px;
+    top: 10px;
+
+    background: #B197C0;
+}
+#body {
+    margin: auto;
+    width: 340px;
+    height: 301px;
+    margin-top: 20px;
+    position: relative;
+
+    background: #B197C0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#body_logo {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+#body_google_play {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 37px;
+}
+#body_text_bottom {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+#footer {
+    margin: auto;
+    width: 340px;
+    height: 81px;
+    margin-top: 20px;
+    position: relative;
+
+    background: #B197C0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#footer_image {
+    margin-top: 21px;
+    margin-left: 13px;
+    float: left;
+}
+#footer_p1 {
+    color: black;
+    font-weight: bold;
+    position: relative;
+    top: 33px;
+    left: 5px;
+}
+#footer_p2 {
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+#text_title {
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+}
+#text_body {
+    text-align: left;
+    color: black;
+    padding-top: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+#body_policy {
+    margin: auto;
+    width: 340px;
+    height: 970px;
+    margin-top: 20px;
+    position: relative;
+
+    background: #B197C0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#back_image {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#title_image {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}

@@ -2,63 +2,33 @@
 <html>
 <head>
     <title>Luditas</title>
-    <style type="text/css">
-    #title {
-        margin: auto;
-        width: 340px;
-        height: 90px;
-        left: 10px;
-        top: 10px;
-
-        background: #B197C0;
-        background-image: url(res/logo_luditas.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-    }
-    #body {
-        margin: auto;
-        width: 340px;
-        height: 301px;
-        left: 10px;
-        top: 10px;
-        margin-top: 20px;
-
-        background: #B197C0;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-    }
-    #footer {
-        margin: auto;
-        width: 340px;
-        height: 81px;
-        left: 10px;
-        top: 10px;
-        margin-top: 20px;
-
-        background: #B197C0;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-    }
-    #icon_mail {
-        margin-top: 21px;
-        margin-left: 13px;
-        float: left;
-    }
-    #text_mail {
-        color: black;
-        font-weight: bold;
-
-    }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body style="background-color:#72507AFF;">
 
-<div id="title">
-</div>
+    <div id="title">
+        <a href="index.html">
+            <img id="title_image" src='res/logo_luditas.png'/>
+        </a>
+    </div>
 <div id="body">
+    <a href="https://play.google.com/store/apps/details?id=com.luditas.tagem&hl=es_AR">
+        <img id="body_logo" src="res/logo.png" />
+    </a>
+    <a href="https://play.google.com/store/apps/details?id=com.luditas.tagem&hl=es_AR">
+        <img id="body_google_play" src="res/Google Play badge.png" />
+    </a>
+    <p id="body_text_bottom">
+        <a href="tagem-privacy-policy.html" style="color: black;" >Privacy Policy</a>
+    </p>
 </div>
 <div id="footer">
-    <img id="icon_mail" src='res/mail.png'/>
-    <p id="text_mail">luditas.inc@gmail.com</p>
+    <a href="mailto:luditas.inc@gmail.com">
+        <img id="footer_image" src='res/mail.png'/>
+    </a>
+    
+    <a href="mailto:luditas.inc@gmail.com" id="footer_p1">luditas.inc@gmail.com</a>
+    <p id="footer_p2">Luditas 2020</p>
 </div>
 
 </body>
