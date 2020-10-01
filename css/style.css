@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* BODY */
+
+body {
+    background-image: url("/res/backgroud-1366x768.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.img-logo-luditas{
+    margin-left: 87px;
+    margin-top: 78px;
+}
+
+.my-container {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+.text-container {
+    float: left;
+    margin-top: 5rem;
+    margin-left: 40rem;
+    color: white
+}
+
+.text-container h1 {
+    font-size: 52px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.text-container p {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.download-btn {
+    margin-top: 2.5rem;
+}
+
+.img-tagem-logo {
+    margin-right: 7rem;
+    margin-top: 3.5rem;
+    width: 15rem;
+    height: 15rem;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #03989E;
+    position: absolute;
+    bottom: 0;
+    height: 3.5rem;
+    width: 100%;
+}
+
+.contact {
+    display: inline-block;
+    margin-top: 4px;
+    margin-left: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    color: black;
+}
+
+:hover.contact {
+    color: white;
+    text-decoration: none;
+}
+
+.img-footer {
+    display: inline-block;
+    position: absolute;
+    right: 24px;
+    margin-top: 7px;
+}
+
