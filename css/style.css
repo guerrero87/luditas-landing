@@ -102,3 +102,41 @@ footer {
         width: 15rem;
     }
 }
+
+@media (min-width: 3000px) {
+
+    .text-container {
+        margin-right: 15rem;
+    }
+
+    .text-container h1 {
+        font-size: 250px;
+    }
+
+    .text-container p {
+        font-size: 120px;
+    }
+
+    .download-btn {
+        margin-top: 8rem;
+        width: 93rem;
+        font-size: 100px;
+        border-width: 5px;
+    }
+
+    .img-tagem-logo {
+        width: 50rem;
+    }
+
+    footer {
+        height: 10rem;
+    }
+
+    .contact {
+        font-size: 100px;
+    }
+
+    .img-footer {
+        width: 80rem;
+    }
+}
