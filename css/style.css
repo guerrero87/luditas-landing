@@ -45,6 +45,10 @@ body {
     font-size: 20px;
 }
 
+.img-tagem-logo-top {
+    display: none;
+}
+
 .download-btn {
     margin-top: 2.5rem;
     width: 15.35rem;
@@ -83,6 +87,49 @@ footer {
     margin-top: 0.5rem;
 }
 
+@media (max-width: 600px) {
+
+    .my-container {
+        display: block;
+        position: static;
+        text-align: center;
+        margin-top: 8rem;
+    }
+
+    .img-tagem-logo-top {
+        display: inline-block;
+    }
+
+    .text-container {
+        float: none;
+        text-align: center;
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+    .img-tagem-logo-bottom {
+        display: none;
+    }
+
+    footer {
+        height: 10rem;
+        text-align: center;
+    }
+
+    .contact {
+        margin-top: 1rem;
+    }
+
+    .img-footer {
+        display: block;
+        position: static;
+        margin: 1rem auto;
+        margin-top: 2rem;
+    }
+    
+}
+
+
 @media (min-width: 1000px) {
 
     .text-container h1 {
@@ -98,7 +145,7 @@ footer {
         width: 22.75rem;
     }
 
-    .img-tagem-logo {
+    .img-tagem-logo-bottom {
         width: 15rem;
     }
 }
@@ -124,7 +171,7 @@ footer {
         border-width: 5px;
     }
 
-    .img-tagem-logo {
+    .img-tagem-logo-bottom {
         width: 50rem;
     }
 
