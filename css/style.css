@@ -89,6 +89,11 @@ footer {
 
 @media (max-width: 600px) {
 
+    .img-logo-luditas {
+        margin-top: 2rem;
+        width: 12rem;
+    }
+
     .my-container {
         display: block;
         position: static;
@@ -119,7 +124,7 @@ footer {
     }
 
     .contact {
-        font-size: 2rem;
+        font-size: 1.8rem;
         margin-top: 1rem;
     }
 
